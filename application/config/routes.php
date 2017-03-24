@@ -57,5 +57,7 @@ $route['news'] = 'news';
 
 $route['dance'] = 'dance';
 
+$route['register'] = 'user/register';
+
 $route['default_controller'] = 'pages/view';
 $route['(:any)'] = 'pages/view/$1'; 
